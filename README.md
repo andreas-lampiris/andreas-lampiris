@@ -10,8 +10,6 @@ screening tools, clinical data platforms, and systems that turn messy real-world
 in production on Raspberry Pi hardware, a Mac Mini server, and the cloud, and clinicians use
 them.
 
-**Portfolio: [andreaspataeipaulo.github.io](https://andreaspataeipaulo.github.io)**
-
 ## What I work on
 
 ### Medical technology — DDART
@@ -59,7 +57,6 @@ Mechanical design is where I'm headed at Rose-Hulman; software is how I got ther
 ## Contact
 
 - Email: [andreaslab56@gmail.com](mailto:andreaslab56@gmail.com)
-- Portfolio: [andreaspataeipaulo.github.io](https://andreaspataeipaulo.github.io)
 
 Most of my repositories are private — they contain clinical software and patient-facing
 systems. Happy to walk through any of it on request.
