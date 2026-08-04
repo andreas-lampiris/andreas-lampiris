@@ -10,29 +10,34 @@ screening tools, clinical data platforms, and systems that turn messy real-world
 in production on Raspberry Pi hardware, a Mac Mini server, and the cloud, and clinicians use
 them.
 
+**[Read the full engineering write-up](https://iddartech.med.duth.gr/ddart/engineering/)**
+— how the screening model was trained on 487,521 retinal images, what it actually scores on
+hospitals it has never seen, and the two experiments that failed.
+&nbsp;·&nbsp; **[Resume (PDF)](Andreas_Lampiris_Resume.pdf)**
+
 ## What I work on
 
 ### Medical technology — DDART
 
 Research developer for DDART, an ophthalmology technology group.
 
-- **Unified patient database** — aggregates records from several clinical sources every 60
+- **[Unified patient database](https://github.com/AndreasPataeiPaulo/ddart-patient-database)** — aggregates records from several clinical sources every 60
   seconds, keyed by national health ID. On-device LLM analysis (Ollama / phi-4), PubMed
   literature search, biometrics, visual-acuity and defocus-curve analysis, and deterministic
   clinical findings.
-- **Fundus screening study platform** — a RETFound-based multi-label classifier for glaucoma,
+- **[Fundus screening study platform](https://github.com/AndreasPataeiPaulo/ddart-fundus-screening)** — a RETFound-based multi-label classifier for glaucoma,
   diabetic retinopathy and AMD, wrapped in a grading workflow where clinicians label images
   and build the training set as they work.
 - **Clinical OCR pipeline** — parses scanned Alcon biometry reports (Tesseract + pdf2image)
   into structured records that flow straight into the database.
-- **Dry-eye assessment app** — doctor-facing clinical chat and an AI patient-file generator
+- **[Dry-eye assessment app](https://github.com/AndreasPataeiPaulo/ddart-dryeye-assistant)** — doctor-facing clinical chat and an AI patient-file generator
   over a locally hosted language model.
 - **Screening and information sites** — including a preschool visual-acuity screening app
   deployed to Raspberry Pi behind an Nginx subpath.
 
 ### Other projects
 
-- **EyeScreen** — full-stack ophthalmology screening web app running five clinical vision
+- **[EyeScreen](https://github.com/AndreasPataeiPaulo/eyescreen)** — full-stack ophthalmology screening web app running five clinical vision
   tests with real-time MediaPipe computer vision.
 - **SnapNav** — navigate websites by hand gesture, driven by live hand-landmark tracking.
 - **Margipan** — bilingual (Greek / English) Next.js site for a bakery in Vouliagmeni, live on
@@ -58,5 +63,7 @@ Mechanical design is where I'm headed at Rose-Hulman; software is how I got ther
 
 - Email: [andreaslab56@gmail.com](mailto:andreaslab56@gmail.com)
 
-Most of my repositories are private — they contain clinical software and patient-facing
-systems. Happy to walk through any of it on request.
+Four of these are public and linked above. The rest stay private — they hold clinical
+software and patient-facing systems. In the public ones every credential is read from the
+environment, and no patient record, database or model weight is included. Happy to walk
+through any of it.
