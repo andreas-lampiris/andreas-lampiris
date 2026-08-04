@@ -61,7 +61,7 @@ Mechanical design is where I'm headed at Rose-Hulman; software is how I got ther
 
 ## Contact
 
-- Email: [andreaslab56@gmail.com](mailto:andreaslab56@gmail.com)
+- Email: [andrylab56@gmail.com](mailto:andrylab56@gmail.com)
 
 Four of these are public and linked above. The rest stay private — they hold clinical
 software and patient-facing systems. In the public ones every credential is read from the
