@@ -1,6 +1,6 @@
 # Andreas Lampiris
 
-Full-stack and AI developer based in Athens, Greece. Studying Mechanical Engineering at
+Full-stack and AI developer based in Athens, Greece. Studying Electrical Engineering with a minor in Computer Science at
 **Rose-Hulman Institute of Technology** in Indiana, Class of 2030.
 
 I build complete products end to end — the database, the API, the interface, and the machine
@@ -21,23 +21,23 @@ hospitals it has never seen, and the two experiments that failed.
 
 Research developer for DDART, an ophthalmology technology group.
 
-- **[Unified patient database](https://github.com/AndreasPataeiPaulo/ddart-patient-database)** — aggregates records from several clinical sources every 60
+- **[Unified patient database](https://github.com/andreas-lampiris/ddart-patient-database)** — aggregates records from several clinical sources every 60
   seconds, keyed by national health ID. On-device LLM analysis (Ollama / phi-4), PubMed
   literature search, biometrics, visual-acuity and defocus-curve analysis, and deterministic
   clinical findings.
-- **[Fundus screening study platform](https://github.com/AndreasPataeiPaulo/ddart-fundus-screening)** — a RETFound-based multi-label classifier for glaucoma,
+- **[Fundus screening study platform](https://github.com/andreas-lampiris/ddart-fundus-screening)** — a RETFound-based multi-label classifier for glaucoma,
   diabetic retinopathy and AMD, wrapped in a grading workflow where clinicians label images
   and build the training set as they work.
 - **Clinical OCR pipeline** — parses scanned Alcon biometry reports (Tesseract + pdf2image)
   into structured records that flow straight into the database.
-- **[Dry-eye assessment app](https://github.com/AndreasPataeiPaulo/ddart-dryeye-assistant)** — doctor-facing clinical chat and an AI patient-file generator
+- **[Dry-eye assessment app](https://github.com/andreas-lampiris/ddart-dryeye-assistant)** — doctor-facing clinical chat and an AI patient-file generator
   over a locally hosted language model.
 - **Screening and information sites** — including a preschool visual-acuity screening app
   deployed to Raspberry Pi behind an Nginx subpath.
 
 ### Other projects
 
-- **[EyeScreen](https://github.com/AndreasPataeiPaulo/eyescreen)** — full-stack ophthalmology screening web app running five clinical vision
+- **[EyeScreen](https://github.com/andreas-lampiris/eyescreen)** — full-stack ophthalmology screening web app running five clinical vision
   tests with real-time MediaPipe computer vision.
 - **SnapNav** — navigate websites by hand gesture, driven by live hand-landmark tracking.
 - **Margipan** — bilingual (Greek / English) Next.js site for a bakery in Vouliagmeni, live on
@@ -47,7 +47,7 @@ Research developer for DDART, an ophthalmology technology group.
 
 I co-founded my school's FIRST Robotics team and led the shooter and intake subsystems,
 redesigning the intake from roughly 50 parts down to 20 while making it more reliable.
-Mechanical design is where I'm headed at Rose-Hulman; software is how I got there.
+At Rose-Hulman I am studying electrical engineering with a computer science minor, which brings the hardware and software sides together.
 
 ## Tools
 
